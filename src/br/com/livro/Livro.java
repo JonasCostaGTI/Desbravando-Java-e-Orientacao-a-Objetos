@@ -19,6 +19,10 @@ public class Livro {
 		this.isbn = "0000-00000-000-0000";
 	}
 	
+	public Livro(){
+		System.out.println("Novo livro criado");
+	}
+	
 	
 	public String getNome() {
 		return nome;
@@ -60,10 +64,6 @@ public class Livro {
 		this.autor = autor;
 	}
 
-
-	public Livro(){
-		System.out.println("Novo livro criado");
-	}
 	
 	void mostra_detalhes(){
 		System.out.println("DETALHES DO LIVRO ");

@@ -14,7 +14,7 @@ public class Regras_de_desconto {
 		Autor autor = new Autor();	
 		autor.setNome("Rodrigo turini");
 		
-		Livro livro = new Livro(autor);
+		Livro livro = new Livro_fisico(autor);
 		livro.setValor(59.90);
 		
 		

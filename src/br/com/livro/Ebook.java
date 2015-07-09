@@ -32,12 +32,6 @@ public class Ebook extends Livro{
 		}
 		return super.aplica_desconto_de(porcentagem);  // super indica que estamos invocando metodos da classe pai
 		
-		
-		
-		
 	}
 	
-	
-	
-
 }

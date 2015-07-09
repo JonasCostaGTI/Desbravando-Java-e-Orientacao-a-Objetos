@@ -18,7 +18,7 @@ public class Cadastro_de_livros {
 		
 		System.out.println("--------");
 	
-		Livro livro = new Livro(autor);
+		Livro livro = new Livro_fisico(autor);
 		livro.setNome("Aprendendo Java");
 		livro.setDescricao("Aprendendo a programar com java");	
 		livro.setValor(59.90);
@@ -39,7 +39,7 @@ public class Cadastro_de_livros {
 		
 		System.out.println("--------");
 		
-		Livro outro_livro = new Livro(outro_autor);
+		Livro outro_livro = new Livro_fisico(outro_autor);
 		outro_livro.setNome("Tecnicas de programacao");
 		outro_livro.setDescricao("aprendendo a programar");
 		outro_livro.setValor(59.90);

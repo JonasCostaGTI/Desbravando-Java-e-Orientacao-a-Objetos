@@ -6,7 +6,7 @@ package br.com.livro;
 /**
  * @author jonascosta
  */
-public class Livro {
+public abstract class Livro {
 	
 	private String nome;
 	private String descricao;
@@ -93,7 +93,9 @@ public class Livro {
 		
 	}
 
-	
+	public String toString() {
+		return nome;
+	}
 
 	
 

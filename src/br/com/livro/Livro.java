@@ -82,17 +82,13 @@ public abstract class Livro {
 		return this.nome != null;
 	}
 
-	public boolean aplica_desconto_de(double porcentagem) {
-		if (porcentagem > 0.3) {
-			return false;
-		}else {
-			this.valor -= this.valor * porcentagem;
-			return true;
-		}
-		
-		
-	}
+	public abstract boolean aplica_desconto_de(double porcentagem); 
+	/*apenas classes abstratas podem ter metodos abstratos. 
+	 * seremos obrigado a reescrver este metodo nas classes abstratas
+	 * 
+	 */
 
+	
 	public String toString() {
 		return nome;
 	}

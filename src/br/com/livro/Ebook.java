@@ -30,7 +30,8 @@ public class Ebook extends Livro{
 		if (porcentagem > 0.15) {
 			return false;
 		}
-		return super.aplica_desconto_de(porcentagem);  // super indica que estamos invocando metodos da classe pai
+		setValor(getValor() * porcentagem);
+		return true;
 		
 	}
 	

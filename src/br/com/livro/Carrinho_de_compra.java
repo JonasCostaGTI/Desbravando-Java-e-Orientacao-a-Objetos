@@ -12,11 +12,9 @@ public class Carrinho_de_compra {
 		
 	
 
-	public void adiciona(Livro livro) {
-		System.out.println("Adicionado: " + livro);
-		
-		livro.aplica_desconto_de(0.16);
-		total += livro.getValor();
+	public void adiciona(Produto produto) {
+		System.out.println("Adicionado: " + produto);
+		total += produto.getValor();
 		
 	}
 	

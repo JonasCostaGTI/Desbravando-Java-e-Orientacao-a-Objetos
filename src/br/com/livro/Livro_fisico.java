@@ -6,7 +6,7 @@ package br.com.livro;
 /**
  * @author jonascosta
  */
-public class Livro_fisico extends Livro {
+public class Livro_fisico extends Livro implements Promocional {
 	
 	
 	/* funcao herdada da classe livro que obriga

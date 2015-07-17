@@ -10,6 +10,7 @@ public class Registro_de_vendas {
 		Livro_fisico fisico = new Livro_fisico(autor);
 		fisico.setNome("Test-Driven Development");
 		fisico.setValor(59.90);
+
 		
 		Ebook ebook = new Ebook(autor);
 		ebook.setNome("Test- Driven Development Ebook");
@@ -20,6 +21,10 @@ public class Registro_de_vendas {
 		carrinho.adiciona(ebook);
 		
 		System.out.println("Total: " + carrinho.getTotal());
+		
+		if (fisico.aplica_desconto_10porcento()) {
+			System.out.println("Valor agora é de: " + fisico.getValor());
+		}
 		
 		
 		

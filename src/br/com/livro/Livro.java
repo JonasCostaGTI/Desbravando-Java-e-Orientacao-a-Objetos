@@ -82,12 +82,6 @@ public abstract class Livro implements Produto{
 		return this.nome != null;
 	}
 
-	public abstract boolean aplica_desconto_de(double porcentagem); 
-	/*apenas classes abstratas podem ter metodos abstratos. 
-	 * seremos obrigado a reescrver este metodo nas classes abstratas
-	 * 
-	 */
-
 	
 	public String toString() {
 		return nome;

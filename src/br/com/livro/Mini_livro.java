@@ -9,7 +9,7 @@ package br.com.livro;
  * 10/07/2015
  */
 
-public class Mini_livro extends Livro {
+public class Mini_livro extends Livro implements Promocional {
 	
 	public Mini_livro(Autor autor){
 		super(autor);

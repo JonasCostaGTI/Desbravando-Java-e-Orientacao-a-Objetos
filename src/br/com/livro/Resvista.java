@@ -9,7 +9,7 @@ package br.com.livro;
  * 14/07/2015
  */
 
-public class Resvista implements Produto{
+public class Resvista implements Produto, Promocional{
 	
 	private String nome;
 	private String descricao;

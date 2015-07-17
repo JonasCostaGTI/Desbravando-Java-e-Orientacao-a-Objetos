@@ -8,7 +8,7 @@ package br.com.livro;
  * 
  * éssa classe possui os mesmos atributos da Classe Livro 
  */
-public class Ebook extends Livro{
+public class Ebook extends Livro implements Promocional{
 	
 	private String water_mark;
 	
@@ -25,7 +25,7 @@ public class Ebook extends Livro{
 		this.water_mark = water_mark;
 	}
 	
-	@Override
+	
 	public boolean aplica_desconto_de(double porcentagem) {
 		if (porcentagem > 0.15) {
 			return false;

@@ -10,8 +10,6 @@ public class Carrinho_de_compra {
 	
 	private double total;
 		
-	
-
 	public void adiciona(Produto produto) {
 		System.out.println("Adicionado: " + produto);
 		total += produto.getValor();

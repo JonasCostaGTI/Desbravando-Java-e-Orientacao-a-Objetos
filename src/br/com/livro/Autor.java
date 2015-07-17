@@ -12,37 +12,25 @@ public class Autor {
 	private String e_mail;
 	private String CPF;
 	
-	
-	
 	public String getNome() {
 		return nome;
 	}
-
-
 
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
-
-
 	public String getE_mail() {
 		return e_mail;
 	}
-
-
 
 	public void setE_mail(String e_mail) {
 		this.e_mail = e_mail;
 	}
 
-
-
 	public String getCPF() {
 		return CPF;
 	}
-
-
 
 	public void setCPF(String cPF) {
 		CPF = cPF;
@@ -59,15 +47,7 @@ public class Autor {
 		}else{
 			System.out.println("nao a detalhes do autor");
 		}
-		
 	
-		
-		
 	}
-	
-	
-	
-		
-	
 	
 }

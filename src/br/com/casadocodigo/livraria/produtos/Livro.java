@@ -1,7 +1,9 @@
 /**
  * 
  */
-package br.com.livro;
+package br.com.casadocodigo.livraria.produtos;
+
+import br.com.casadocodigo.livraria.Autor;
 
 /**
  * @author jonascosta
@@ -65,7 +67,7 @@ public abstract class Livro implements Produto{
 	}
 
 	
-	void mostra_detalhes(){
+	public void mostra_detalhes(){
 		System.out.println("DETALHES DO LIVRO ");
 		System.out.println("O nome do livro é, "+nome);
 		System.out.println("descricao: "+descricao);

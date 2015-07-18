@@ -1,7 +1,7 @@
 /**
  * 
  */
-package br.com.livro;
+package br.com.casadocodigo.livraria;
 
 /**
  * @author jonascosta
@@ -38,7 +38,7 @@ public class Autor {
 
 
 
-	void mostra_detalhes(){
+	public void mostra_detalhes(){
 		if(this.nome != null){
 			System.out.println("DETALHES DO AUTOR DO LIVRO ");
 			System.out.println("O nome do autor do livro é, "+nome);

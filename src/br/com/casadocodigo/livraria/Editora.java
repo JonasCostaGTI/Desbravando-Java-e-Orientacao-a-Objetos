@@ -1,7 +1,7 @@
 /**
  * 
  */
-package br.com.livro;
+package br.com.casadocodigo.livraria;
 
 /**
  * @author jonascosta

@@ -1,4 +1,9 @@
-package br.com.livro;
+package br.com.casadocodigo.livraria.teste;
+
+import br.com.casadocodigo.livraria.Autor;
+import br.com.casadocodigo.livraria.produtos.Carrinho_de_compra;
+import br.com.casadocodigo.livraria.produtos.Ebook;
+import br.com.casadocodigo.livraria.produtos.Livro_fisico;
 
 public class Registro_de_vendas {
 

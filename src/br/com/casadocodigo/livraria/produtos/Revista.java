@@ -11,7 +11,7 @@ import br.com.casadocodigo.livraria.Editora;
  * 14/07/2015
  */
 
-public class Resvista implements Produto, Promocional{
+public class Revista implements Produto, Promocional{
 	
 	private String nome;
 	private String descricao;

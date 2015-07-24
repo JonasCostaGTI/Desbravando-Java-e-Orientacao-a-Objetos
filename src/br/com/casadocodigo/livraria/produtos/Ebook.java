@@ -37,4 +37,9 @@ public class Ebook extends Livro implements Promocional{
 		
 	}
 	
+	@Override
+	public String toString(){
+		return "sou um Ebook";
+	}
+	
 }

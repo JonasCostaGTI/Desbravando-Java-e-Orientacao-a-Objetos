@@ -17,6 +17,9 @@ public abstract class Livro implements Produto{
 	private Autor autor;
 	
 	public  Livro(Autor autor) {
+		if (autor == null) {
+			throw new Autor_nulo_exception("o livro nao pode ser nulo");
+		}
 		this.autor = autor;
 		this.isbn = "0000-00000-000-0000";
 	}
@@ -84,7 +87,7 @@ public abstract class Livro implements Produto{
 		return this.nome != null;
 	}
 
-	
+	@Override
 	public String toString() {
 		return nome;
 	}

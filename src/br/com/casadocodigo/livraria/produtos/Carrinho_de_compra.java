@@ -3,6 +3,8 @@
  */
 package br.com.casadocodigo.livraria.produtos;
 
+import java.util.ArrayList;
+
 
 /**
  * @author jonascosta
@@ -10,22 +12,28 @@ package br.com.casadocodigo.livraria.produtos;
 public class Carrinho_de_compra {
 	
 	private double total;
-	private Produto[] produtos = new Produto[10];
-	private int contador = 0;
+	private ArrayList<Produto> produtos;
 	
 	
+	public Carrinho_de_compra(){
+		this.produtos = new ArrayList<Produto>();
+	}
 		
-	public void adiciona(Produto produto) {
-		System.out.println("Adicionado: " + produto);
-		produtos[contador] = produto; 
+	public void adiciona(Produto produto){
 		this.total += produto.getValor();
-		contador++;
+		this.produtos.add(produto);
+	}
 	
-		}
-		
+	public void remove(int posicao){
+		this.produtos.remove(posicao);
+	}
 	
 	public double getTotal(){
 		return total;
+	}
+	
+	public ArrayList<Produto> getProdutos() {
+		return produtos;
 	}
 	
 	

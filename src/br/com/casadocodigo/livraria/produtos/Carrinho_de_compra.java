@@ -4,6 +4,7 @@
 package br.com.casadocodigo.livraria.produtos;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 public class Carrinho_de_compra {
 	
 	private double total;
-	private ArrayList<Produto> produtos;
+	private List<Produto> produtos;
 	
 	
 	public Carrinho_de_compra(){
@@ -32,7 +33,7 @@ public class Carrinho_de_compra {
 		return total;
 	}
 	
-	public ArrayList<Produto> getProdutos() {
+	public List<Produto> getProdutos() {
 		return produtos;
 	}
 	
